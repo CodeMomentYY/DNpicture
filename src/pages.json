@@ -1,0 +1,108 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "path": "pages/horizontal/index",
+      "style": {
+        "navigationBarTitleText": "横屏"
+      }
+    },
+    {
+      "path": "pages/video/index",
+      "style": {
+        "navigationBarTitleText": "精美视频"
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索"
+      }
+    },
+    {
+      "path": "pages/mine/index",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    },
+    {
+      "path": "pages/album/index",
+      "style": {
+        "navigationBarTitleText": "专辑详情"
+      }
+    },
+    {
+      "path": "pages/imgDetail/index",
+      "style": {
+        "navigationBarTitleText": "图片详情"
+      }
+    },
+    {
+      "path": "pages/demo/index",
+      "style": {
+        "navigationBarTitleText": "触屏demo"
+      }
+    },
+    {
+      "path": "pages/imgCategory/index",
+      "style": {
+        "navigationBarTitleText": "图片分类"
+      }
+    },
+    {
+      "path": "pages/videoPlay/index",
+      "style": {
+        "navigationBarTitleText": "视频播放"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "懂你找图",
+    "navigationBarBackgroundColor": "#52d4dd"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#52d4dd",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "./static/icon/home.png",
+        "selectedIconPath": "./static/icon/home_active.png"
+      },
+      {
+        "pagePath": "pages/horizontal/index",
+        "text": "横屏",
+        "iconPath": "./static/icon/horizontal.png",
+        "selectedIconPath": "./static/icon/horizontal_active.png"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "text": "精美视频",
+        "iconPath": "./static/icon/video.png",
+        "selectedIconPath": "./static/icon/video_active.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "搜索",
+        "iconPath": "./static/icon/search.png",
+        "selectedIconPath": "./static/icon/search_active.png"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "text": "我的",
+        "iconPath": "./static/icon/mine.png",
+        "selectedIconPath": "./static/icon/mine_active.png"
+      }
+    ]
+  }
+}
